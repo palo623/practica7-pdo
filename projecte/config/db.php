@@ -1,7 +1,7 @@
 <?php
 // Paràmetres de connexió a la base de dades
 $host    = 'db';        // Nom del servei Docker
-$db      = 'asix';
+$db      = 'botiga';
 $user    = 'root';
 $pass    = 'root';
 $charset = 'utf8mb4';
