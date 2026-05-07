@@ -1,0 +1,45 @@
+/* css/estils.css */
+body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; margin: 0; padding: 0; }
+header { background: #2c3e50; padding: 1rem; color: white; }
+header nav a { color: #bdc3c7; text-decoration: none; margin: 0 10px; transition: 0.3s; }
+header nav a:hover { color: #3498db; }
+
+main { max-width: 1100px; margin: 2rem auto; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+th { background: #34495e; color: white; padding: 12px; text-align: left; }
+td { padding: 12px; border-bottom: 1px solid #eee; }
+tr:hover { background: #f9f9f9; }
+
+.badge { background: #e1f5fe; color: #0288d1; padding: 4px 8px; border-radius: 4px; font-size: 0.85em; font-weight: bold; }
+
+.btn-editar { color: #f39c12; text-decoration: none; font-weight: bold; margin-right: 10px; }
+.btn-perill { color: #e74c3c; text-decoration: none; font-weight: bold; }
+
+form { max-width: 400px; }
+.form-group { margin-bottom: 1rem; }
+label { display: block; margin-bottom: 5px; font-weight: bold; }
+input { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+button { background: #27ae60; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; width: 100%; }
+button:hover { background: #219150; }
+
+
+
+
+
+input[type="text"], 
+input[type="number"], 
+input[type="date"], 
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
